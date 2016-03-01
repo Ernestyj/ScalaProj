@@ -1,5 +1,8 @@
 package com.eugene.impatience_scala
 
+import java.awt.datatransfer.{DataFlavor, SystemFlavorMap}
+import java.util.TimeZone
+
 import scala.collection.mutable.ArrayBuffer
 import scala.util.Random
 
@@ -46,6 +49,14 @@ object Chap3 {
         val end2 = System.currentTimeMillis()
         println((end1-begin1)+":"+(end2-begin2))//第二种方式更快
         //9
+        val t9 = TimeZone.getAvailableIDs()
+        val res9 = t9.filter(_.startsWith("America")).map(_.substring(8)).sorted
+        for(x <- res9) print(x+" ")
+        println()
+        //10
+        val flavors = SystemFlavorMap.getDefaultFlavorMap().asInstanceOf[SystemFlavorMap]
+        val res = flavors.getNativesForFlavor(DataFlavor.imageFlavor)
+        println(res)
     }
 
     def randomArray(n: Int): Array[Int] = {
