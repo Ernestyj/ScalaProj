@@ -2,8 +2,6 @@ package com.eugene.impatience_scala
 
 import java.awt.Point
 
-import com.sun.tools.javac.jvm.Items
-
 import scala.collection.mutable.ArrayBuffer
 
 /**
