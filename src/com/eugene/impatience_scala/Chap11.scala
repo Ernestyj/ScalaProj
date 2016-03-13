@@ -10,7 +10,9 @@ object Chap11 {
 //        t3()
 //        t4()
 //        t5()
-        t6()
+//        t6()
+//        t7()
+        t8()
     }
 
     class Fraction(n:Int, d:Int){
@@ -156,4 +158,96 @@ object Chap11 {
         println("*********************")
         println(a * b)
     }
+
+    class BitSequence(private var value:Long = 0){
+        implicit def bool2int(b: Boolean) = if (b) 1 else 0
+        def update(loc: Int, newVal: Int) = value |= (newVal & 1L) << loc % 64
+        def apply(loc: Int): Int = if ((value & 1L << loc % 64) > 0) 1 else 0
+        override def toString = "%64s".format(value.toBinaryString)
+    }
+    def t7() = {
+        val x = new BitSequence()
+        println(x)
+        x(5) = 1
+        x(63) = 1
+        x(64) = 1
+        println(x(5))
+        println(x)
+        x(63) = 0
+        println(x)
+        val y = new BitSequence(99L)
+        println(y)
+    }
+
+    class Matrix(val row:Int, val col:Int){
+        private val matrix = Array.ofDim[Double](row, col)
+
+        def this() = this(2, 2)
+        def this(n:Int) = this(n, n)
+
+        def +(other:Matrix) = {
+            require(row==other.row)
+            require(col==other.col)
+            var res = new Matrix(row, col)
+            for(i <- 0 until row; j <- 0 until col) {
+                res(i, j) = this.matrix(i)(j) + other.matrix(i)(j)
+            }
+            res
+        }
+        def *(other:Matrix) = {
+            require(col == other.row)
+            val res = new Matrix(row, col)
+            for(i <- 0 until row; j <- 0 until col) {
+                res(i, j) = prod(other, i, j)
+            }
+            res
+        }
+        def *(factor: Double) = {
+            val res = new Matrix(row, col)
+            for(i <- 0 until row; j <- 0 until col) {
+                res(i, j) = this.matrix(i)(j) * factor
+            }
+            res
+        }
+        def -(other: Matrix) = this + other * -1
+
+        def apply(m:Int, n:Int) = matrix(m)(n)
+        def update(m:Int, n:Int, v:Double) = matrix(m)(n) = v
+
+        override def toString = matrix.map(_.mkString(" ")).mkString("\n")
+
+        private def prod(other: Matrix, i: Int, j: Int) = {
+            (for (k <- 0 until col) yield matrix(i)(k) * other.matrix(k)(j)).sum
+        }
+    }
+    def t8() = {
+        val x = new Matrix()
+        x(0, 0) = 1
+        x(0, 1) = 2
+        x(1, 0) = 3
+        x(1, 1) = 4
+        println(x)
+        println()
+        println(x*x)
+        println()
+        println(x * 2)
+        println()
+        println(x * 2 - x)
+        println()
+        println((x * 2) * (x * 3))
+    }
+
+    class RichFile(val path:String) extends java.io.File(path)
+    object RichFile{
+        def unapply(richFile:RichFile): Option[(String, String)] = {
+            val path = richFile.path
+            val pos = path.lastIndexOf("/")
+            if (pos == -1) None else Some((path.substring(0, pos), path.substring(pos+1)))
+        }
+        def unapplySeq(s:String):Option[Seq[String]] = {
+            if (s.trim=="") None else Some(s.trim.split("/"))
+        }
+    }
+
+
 }
