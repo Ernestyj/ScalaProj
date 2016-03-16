@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fec5a4c1-9e4e-4a0b-9612-c4e1c86b8252" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap12.scala" afterPath="$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap12.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScalaStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,12 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chap12.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap12.scala">
+      <file leaf-file-name="Chap13.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap13.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.53125">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.9174757">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding>
+                <element signature="e#37#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +82,8 @@
         <option value="$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap10.scala" />
         <option value="$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap11.scala" />
         <option value="$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap12.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap13.scala" />
       </list>
     </option>
   </component>
@@ -91,7 +96,7 @@
     <option name="x" value="1440" />
     <option name="y" value="87" />
     <option name="width" value="1280" />
-    <option name="height" value="734" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -118,8 +123,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,7 +190,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,27 +209,7 @@
       <recent name="$PROJECT_DIR$/src/com/eugene" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chap12">
-    <configuration default="false" name="Chap7" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.eugene.impatience_scala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.eugene.impatience_scala.Chap7" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ScalaStudy" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Chap13">
     <configuration default="false" name="Chap9" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -293,6 +278,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.eugene.impatience_scala.Chap12" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ScalaStudy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Chap13" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eugene.impatience_scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.eugene.impatience_scala.Chap13" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -782,19 +787,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Chap7" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Chap9" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Chap10" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Chap11" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Chap12" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Chap9" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Chap10" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Chap11" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Chap12" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Chap13" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Chap12" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Chap11" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Chap10" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Chap9" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Chap7" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Chap13" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Chap12" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Chap11" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Chap10" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Chap9" />
       </list>
     </recent_temporary>
   </component>
@@ -834,11 +839,13 @@
       <workItem from="1457848166345" duration="3667000" />
       <workItem from="1457875322660" duration="2060000" />
       <workItem from="1457954059269" duration="3988000" />
+      <workItem from="1458042873717" duration="169000" />
+      <workItem from="1458135060985" duration="2891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66577000" />
+    <option name="totallyTimeSpent" value="69637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,7 +857,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="87" width="1280" height="734" extended-state="6" />
+    <frame x="1440" y="87" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -861,7 +868,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24233577" sideWeight="0.5048465" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35825545" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35766423" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24233577" sideWeight="0.4951535" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19951534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -917,20 +924,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/eugene/HelloWorld.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/scala-2.11.7/lib/scala-library.jar!/scala/collection/GenSetLike.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18251534">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/scala-2.11.7/lib/scala-library.jar!/scala/collection/immutable/List.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.1993865">
@@ -1019,13 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.3333335">
           <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/scala-2.11.7/lib/scala-library.jar!/scala/Int.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028960818">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1197,13 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/scala-2.11.7/lib/scala-library.jar!/scala/package.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77272725">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap10.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41755888">
@@ -1225,13 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/scala-2.11.7/lib/scala-library.jar!/scala/Predef.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/scala-2.11.7/lib/scala-library.jar!/scala/Some.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.053968254">
@@ -1243,7 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32724506">
           <caret line="230" column="20" selection-start-line="230" selection-start-column="20" selection-end-line="230" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,15 +1236,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35854343">
           <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13412564">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap12.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.53125">
+        <state vertical-scroll-proportion="0.0">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/scala-2.11.7/lib/scala-library.jar!/scala/Predef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1038961">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/scala-2.11.7/lib/scala-library.jar!/scala/package.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35584417">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/scala-2.11.7/lib/scala-library.jar!/scala/Int.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044155844">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/eugene/impatience_scala/Chap13.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9174757">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="e#37#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
