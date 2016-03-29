@@ -33,7 +33,10 @@ object Chap14 {
         println(eval(y))
         println
         //9
+        println(sum(List(Some(1), None, Some(2), None, Some(3))))
+        println
         //10
+        println(h(2))
     }
 
     def swap(tup:(Int, Int)) = {
@@ -93,4 +96,18 @@ object Chap14 {
             case '*' => leafs.map(eval).product
         }
     }
+
+    def sum(list:List[Option[Int]]) = {
+//        list.foldLeft[Int](0)((i, opt) => i+opt.getOrElse(0))
+        list.map(_.getOrElse(0)).sum
+    }
+
+    def compose(f:Double=>Option[Double], g:Double=>Option[Double]) = {
+        (x:Double) =>
+            if (f(x)==None||g(x)==None) None
+            else g(x)
+    }
+    def f(x : Double) = if ( x >= 0) Some(math.sqrt(x)) else None
+    def g(x : Double) = if ( x != 1) Some( 1 / ( x - 1)) else None
+    val h = compose(f,g)
 }
